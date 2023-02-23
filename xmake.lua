@@ -17,8 +17,8 @@ target("helgoboss-learn")
     add_files("src/*.cpp")
     add_includedirs("external/RxCpp/Rx/v2/src",
         "external/WDL/WDL/",
-        "external/helgoboss-midi-cpp/include",
-        "include")
+        "external/helgoboss-midi-cpp/include")
+    add_includedirs("include", { public = true })
 
     add_packages("gsl", "boost", "nlohmann_json")
 
