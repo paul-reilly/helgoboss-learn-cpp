@@ -4,3 +4,12 @@
 [submodule "lib/helgoboss-vcpkg-overlays"]
 	path = lib/helgoboss-vcpkg-overlays
 	url = https://github.com/helgoboss/helgoboss-vcpkg-overlays.git
+[submodule "external/WDL"]
+	path = external/WDL
+	url = https://www-dev.cockos.com/wdl/WDL.git
+[submodule "external/RxCpp"]
+	path = external/RxCpp
+	url = https://github.com/ReactiveX/RxCpp.git
+[submodule "external/helgoboss-midi-cpp"]
+	path = external/helgoboss-midi-cpp
+	url = https://github.com/paul-reilly/helgoboss-midi-cpp.git

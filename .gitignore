@@ -90,3 +90,6 @@ modules.xml
 # End of https://www.gitignore.io/api/clion+all
 
 build/
+.xmake/
+.vscode/
+
